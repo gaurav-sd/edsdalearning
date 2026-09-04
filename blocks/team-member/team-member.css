@@ -1,0 +1,35 @@
+.team-member {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  max-width: 640px;
+  margin: 2rem auto;
+}
+
+.team-member-photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member-body h3 {
+  margin: 0 0 0.25rem;
+}
+
+.team-member-body .title {
+  color: var(--text-color-muted, #6b7280);
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+}
+
+.team-member-body .bio {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.team-member .loading,
+.team-member .error {
+  color: var(--text-color-muted, #6b7280);
+  font-style: italic;
+}
