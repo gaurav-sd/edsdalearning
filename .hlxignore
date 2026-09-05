@@ -1,4 +1,6 @@
 .*
+!.well-known
+!.well-known/adobe
 !.well-known/**
 *.md
 karma.config.js
